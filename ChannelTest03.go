@@ -11,6 +11,8 @@ func main() {
 	//内置函数 len 返回未被读取的缓冲元素数量， cap 返回缓冲区大小
 	fmt.Printf("len(c)=%d, cap(c)=%d\n", len(c), cap(c))
 
+
+
 	go func() {
 		defer fmt.Println("子协程结束")
 

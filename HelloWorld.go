@@ -17,6 +17,7 @@ func main() { //左括号必须和函数名同行
 	var b, c int = 10, 19
 
 	d := 10
+	
 
 	fmt.Println(d)
 
